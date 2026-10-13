@@ -1,0 +1,35 @@
+# Custom card: a tile put together from values, bars and lines of text that a Home Assistant template sensor describes.
+# The templates live in Home Assistant (a template sensor whose attribute `elements` lists the card's parts); the screen
+# draws them with its own fonts and colours. Every field is explained in docs/MANIFEST.md of tessera-plugins.
+id: custom_card
+version: 0.4.3
+api: "0.5"
+icon: gauge
+maintainer: StofLE
+license: MIT
+stage: beta
+topics: [home]
+requires:
+  esphome: 2026.6.2
+boards: any
+flash_kb: 12
+
+tiles:
+  - id: card
+    name: tile_name
+    icon: gauge
+    sizes: { min: 1x1, max: 4x4 }
+    # Eight parts of up to four labels and three blocks each (two rows of four values), the tile's name and a line for
+    # what is missing.
+    memory: 5600
+    domains: [sensor]
+    # `elements` is the card; a sensor without it shows its own state and unit.
+    attributes: [elements, unit_of_measurement]
+    # The inspector offers the sensors that describe a card, not every sensor in the house (API 0.5).
+    has_attributes: [elements]
+    example: tile_example
+    preview: { title: "{name}", value: "{state}" }
+
+# A tap on the tile opens its parts large over the page, with their labels.
+cards:
+  - { id: detail, name: card_name }

@@ -1,0 +1,20 @@
+{
+  "_meta": { "name": "Русский" },
+  "screen": {
+    "name": "Bluetooth proxy",
+    "proxy": "Bluetooth proxy",
+    "status": "Статус",
+    "status_on": "Слушаю",
+    "status_off": "Выкл",
+    "status_starting": "Запуск",
+    "status_old": "Обновите Wi-Fi чип"
+  },
+  "app": {
+    "name": "Bluetooth proxy",
+    "summary": "Позволяет Home Assistant обнаруживать Bluetooth устройства рядом с экраном. Делит радиомодуль с Wi-Fi.",
+    "setting_proxy": "Bluetooth proxy",
+    "setting_proxy_hint": "При выключении радиомодуль используется только для Wi-Fi (для более плавной загрузки картинок и видео). Пересборка не требуется.",
+    "part_c6": "Обновление Wi-Fi чипа",
+    "part_c6_hint": "Добавляет кнопку «Установить» в Home Assistant для прошивки Wi-Fi чипа. Для работы Bluetooth требуется свежая версия. Ничего не установится, пока вы её не нажмете."
+  }
+}

@@ -10,7 +10,7 @@ api: "0.8"
 icon: robot
 maintainer: MaxGramser
 license: MIT
-stage: beta
+stage: example
 topics: [voice]
 requires:
   esphome: 2026.9.0

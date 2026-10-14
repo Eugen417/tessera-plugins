@@ -9,13 +9,13 @@
  ],
  "claims": {
   "bt_proxy": {
-   "repo": "https://github.com/maxgramser/tessera-plugins",
-   "repo_id": 1408945265,
+   "repo": "https://github.com/Eugen417/tessera-plugins",
+   "repo_id": 1417529767,
    "path": "plugins/bt_proxy"
   },
   "cinema": {
-   "repo": "https://github.com/maxgramser/tessera-plugins",
-   "repo_id": 1408945265,
+   "repo": "https://github.com/Eugen417/tessera-plugins",
+   "repo_id": 1417529767,
    "path": "plugins/cinema"
   },
   "custom_card": {
@@ -29,43 +29,43 @@
    "path": "."
   },
   "guition_relays": {
-   "repo": "https://github.com/maxgramser/tessera-plugins",
-   "repo_id": 1408945265,
+   "repo": "https://github.com/Eugen417/tessera-plugins",
+   "repo_id": 1417529767,
    "path": "plugins/guition_relays"
   },
   "ov_departures": {
-   "repo": "https://github.com/maxgramser/tessera-plugins",
-   "repo_id": 1408945265,
+   "repo": "https://github.com/Eugen417/tessera-plugins",
+   "repo_id": 1417529767,
    "path": "plugins/ov_departures"
   },
   "p4_audio": {
-   "repo": "https://github.com/maxgramser/tessera-plugins",
-   "repo_id": 1408945265,
+   "repo": "https://github.com/Eugen417/tessera-plugins",
+   "repo_id": 1417529767,
    "path": "plugins/p4_audio"
   },
   "picture_frame": {
-   "repo": "https://github.com/maxgramser/tessera-plugins",
-   "repo_id": 1408945265,
+   "repo": "https://github.com/Eugen417/tessera-plugins",
+   "repo_id": 1417529767,
    "path": "plugins/picture_frame"
   },
   "screen_camera": {
-   "repo": "https://github.com/maxgramser/tessera-plugins",
-   "repo_id": 1408945265,
+   "repo": "https://github.com/Eugen417/tessera-plugins",
+   "repo_id": 1417529767,
    "path": "plugins/screen_camera"
   },
   "tap_sound": {
-   "repo": "https://github.com/maxgramser/tessera-plugins",
-   "repo_id": 1408945265,
+   "repo": "https://github.com/Eugen417/tessera-plugins",
+   "repo_id": 1417529767,
    "path": "plugins/tap_sound"
   },
   "voice_assist": {
-   "repo": "https://github.com/maxgramser/tessera-plugins",
-   "repo_id": 1408945265,
+   "repo": "https://github.com/Eugen417/tessera-plugins",
+   "repo_id": 1417529767,
    "path": "plugins/voice_assist"
   },
   "waste_collection": {
-   "repo": "https://github.com/maxgramser/tessera-plugins",
-   "repo_id": 1408945265,
+   "repo": "https://github.com/Eugen417/tessera-plugins",
+   "repo_id": 1417529767,
    "path": "plugins/waste_collection"
   },
   "world_clock": {
@@ -77,8 +77,8 @@
  "plugins": [
   {
    "id": "bt_proxy",
-   "repo": "https://github.com/maxgramser/tessera-plugins",
-   "repo_id": 1408945265,
+   "repo": "https://github.com/Eugen417/tessera-plugins",
+   "repo_id": 1417529767,
    "path": "plugins/bt_proxy",
    "label": "tessera",
    "status": "ok",
@@ -92,7 +92,7 @@
     "version": "0.2.0",
     "api": "0.8",
     "icon": "bluetooth",
-    "maintainer": "MaxGramser",
+    "maintainer": "Eugen417",
     "license": "MIT",
     "stage": "beta",
     "topics": [
@@ -182,8 +182,8 @@
   },
   {
    "id": "cinema",
-   "repo": "https://github.com/maxgramser/tessera-plugins",
-   "repo_id": 1408945265,
+   "repo": "https://github.com/Eugen417/tessera-plugins",
+   "repo_id": 1417529767,
    "path": "plugins/cinema",
    "label": "tessera",
    "status": "ok",
@@ -197,7 +197,7 @@
     "version": "0.1.0",
     "api": "0.10",
     "icon": "movie-open",
-    "maintainer": "MaxGramser",
+    "maintainer": "Eugen417",
     "license": "MIT",
     "stage": "beta",
     "topics": [
@@ -218,7 +218,7 @@
     "attributes": [
      "cloud"
     ],
-    "privacy": "https://github.com/MaxGramser/tessera-plugins/tree/main/plugins/cinema#privacy",
+    "privacy": "https://github.com/Eugen417/tessera-plugins/tree/main/plugins/cinema#privacy",
     "inputs": [
      {
       "id": "api_key",
@@ -873,8 +873,8 @@
   },
   {
    "id": "guition_relays",
-   "repo": "https://github.com/maxgramser/tessera-plugins",
-   "repo_id": 1408945265,
+   "repo": "https://github.com/Eugen417/tessera-plugins",
+   "repo_id": 1417529767,
    "path": "plugins/guition_relays",
    "label": "tessera",
    "status": "ok",
@@ -888,7 +888,7 @@
     "version": "0.1.0",
     "api": "0.8",
     "icon": "toggle-switch",
-    "maintainer": "MaxGramser",
+    "maintainer": "Eugen417",
     "license": "MIT",
     "stage": "beta",
     "topics": [
@@ -960,8 +960,8 @@
   },
   {
    "id": "ov_departures",
-   "repo": "https://github.com/maxgramser/tessera-plugins",
-   "repo_id": 1408945265,
+   "repo": "https://github.com/Eugen417/tessera-plugins",
+   "repo_id": 1417529767,
    "path": "plugins/ov_departures",
    "label": "tessera",
    "status": "ok",
@@ -975,7 +975,7 @@
     "version": "1.2.4",
     "api": "0.7",
     "icon": "bus",
-    "maintainer": "MaxGramser",
+    "maintainer": "Eugen417",
     "license": "MIT",
     "stage": "example",
     "topics": [
@@ -994,7 +994,7 @@
     "attributes": [
      "cloud"
     ],
-    "privacy": "https://github.com/MaxGramser/tessera-plugins/tree/main/plugins/ov_departures#privacy",
+    "privacy": "https://github.com/Eugen417/tessera-plugins/tree/main/plugins/ov_departures#privacy",
     "tiles": [
      {
       "id": "next",
@@ -1171,8 +1171,8 @@
   },
   {
    "id": "picture_frame",
-   "repo": "https://github.com/maxgramser/tessera-plugins",
-   "repo_id": 1408945265,
+   "repo": "https://github.com/Eugen417/tessera-plugins",
+   "repo_id": 1417529767,
    "path": "plugins/picture_frame",
    "label": "tessera",
    "status": "ok",
@@ -1186,7 +1186,7 @@
     "version": "0.1.0",
     "api": "0.10",
     "icon": "image",
-    "maintainer": "MaxGramser",
+    "maintainer": "Eugen417",
     "license": "MIT",
     "stage": "example",
     "topics": [
@@ -1207,7 +1207,7 @@
     "attributes": [
      "cloud"
     ],
-    "privacy": "https://github.com/MaxGramser/tessera-plugins/tree/main/plugins/picture_frame#privacy",
+    "privacy": "https://github.com/Eugen417/tessera-plugins/tree/main/plugins/picture_frame#privacy",
     "tiles": [
      {
       "id": "picture",
@@ -1299,8 +1299,8 @@
   },
   {
    "id": "screen_camera",
-   "repo": "https://github.com/maxgramser/tessera-plugins",
-   "repo_id": 1408945265,
+   "repo": "https://github.com/Eugen417/tessera-plugins",
+   "repo_id": 1417529767,
    "path": "plugins/screen_camera",
    "label": "tessera",
    "status": "ok",
@@ -1314,7 +1314,7 @@
     "version": "0.2.0",
     "api": "0.8",
     "icon": "cctv",
-    "maintainer": "MaxGramser",
+    "maintainer": "Eugen417",
     "license": "GPL-3.0-only",
     "stage": "beta",
     "topics": [
@@ -1387,8 +1387,8 @@
   },
   {
    "id": "tap_sound",
-   "repo": "https://github.com/maxgramser/tessera-plugins",
-   "repo_id": 1408945265,
+   "repo": "https://github.com/Eugen417/tessera-plugins",
+   "repo_id": 1417529767,
    "path": "plugins/tap_sound",
    "label": "tessera",
    "status": "ok",
@@ -1402,7 +1402,7 @@
     "version": "0.1.0",
     "api": "0.8",
     "icon": "gesture-tap-button",
-    "maintainer": "MaxGramser",
+    "maintainer": "Eugen417",
     "license": "MIT",
     "stage": "beta",
     "topics": [
@@ -1469,8 +1469,8 @@
   },
   {
    "id": "voice_assist",
-   "repo": "https://github.com/maxgramser/tessera-plugins",
-   "repo_id": 1408945265,
+   "repo": "https://github.com/Eugen417/tessera-plugins",
+   "repo_id": 1417529767,
    "path": "plugins/voice_assist",
    "label": "tessera",
    "status": "ok",
@@ -1484,7 +1484,7 @@
     "version": "0.2.3",
     "api": "0.8",
     "icon": "robot",
-    "maintainer": "MaxGramser",
+    "maintainer": "Eugen417",
     "license": "MIT",
     "stage": "beta",
     "topics": [
@@ -1631,8 +1631,8 @@
   },
   {
    "id": "waste_collection",
-   "repo": "https://github.com/maxgramser/tessera-plugins",
-   "repo_id": 1408945265,
+   "repo": "https://github.com/Eugen417/tessera-plugins",
+   "repo_id": 1417529767,
    "path": "plugins/waste_collection",
    "label": "tessera",
    "status": "ok",
@@ -1646,7 +1646,7 @@
     "version": "1.0.7",
     "api": "0.7",
     "icon": "recycle",
-    "maintainer": "MaxGramser",
+    "maintainer": "Eugen417",
     "license": "MIT",
     "stage": "example",
     "topics": [

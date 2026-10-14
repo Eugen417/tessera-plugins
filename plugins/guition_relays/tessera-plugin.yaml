@@ -5,7 +5,7 @@ id: guition_relays
 version: 0.1.0
 api: "0.8"
 icon: toggle-switch
-maintainer: MaxGramser
+maintainer: Eugen417
 license: MIT
 stage: beta
 topics: [home]

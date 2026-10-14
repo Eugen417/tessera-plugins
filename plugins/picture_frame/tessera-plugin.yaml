@@ -5,7 +5,7 @@ id: picture_frame
 version: 0.1.0
 api: "0.10"
 icon: image
-maintainer: MaxGramser
+maintainer: Eugen417
 license: MIT
 stage: example
 topics: [photos, media]
@@ -18,7 +18,7 @@ permissions:
   # The hosts an address you give may be on: film posters from The Movie Database, photos from Unsplash.
   network: [image.tmdb.org, images.unsplash.com]
 attributes: [cloud]
-privacy: https://github.com/MaxGramser/tessera-plugins/tree/main/plugins/picture_frame#privacy
+privacy: https://github.com/Eugen417/tessera-plugins/tree/main/plugins/picture_frame#privacy
 
 tiles:
   - id: picture

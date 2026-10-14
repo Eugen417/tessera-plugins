@@ -8,7 +8,7 @@ id: voice_assist
 version: 0.2.3
 api: "0.8"
 icon: robot
-maintainer: MaxGramser
+maintainer: Eugen417
 license: MIT
 stage: example
 topics: [voice]

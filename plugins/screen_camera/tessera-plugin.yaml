@@ -6,7 +6,7 @@ id: screen_camera
 version: 0.2.0
 api: "0.8"
 icon: cctv
-maintainer: MaxGramser
+maintainer: Eugen417
 license: GPL-3.0-only
 stage: beta
 topics: [home]

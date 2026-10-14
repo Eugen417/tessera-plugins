@@ -5,7 +5,7 @@ id: cinema
 version: 0.1.0
 api: "0.10"
 icon: movie-open
-maintainer: MaxGramser
+maintainer: Eugen417
 license: MIT
 stage: beta
 topics: [media, fun]
@@ -18,7 +18,7 @@ permissions:
   # The list of films from TMDB's API, their posters from TMDB's picture host.
   network: [api.themoviedb.org, image.tmdb.org]
 attributes: [cloud]
-privacy: https://github.com/MaxGramser/tessera-plugins/tree/main/plugins/cinema#privacy
+privacy: https://github.com/Eugen417/tessera-plugins/tree/main/plugins/cinema#privacy
 
 inputs:
   - { id: api_key, kind: secret, scope: all, label: api_key, hint: api_key_hint }

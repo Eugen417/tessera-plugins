@@ -4,7 +4,7 @@ id: ov_departures
 version: 1.2.4
 api: "0.7"
 icon: bus
-maintainer: MaxGramser
+maintainer: Eugen417
 license: MIT
 stage: example
 topics: [travel]
@@ -16,7 +16,7 @@ flash_kb: 12
 permissions:
   network: [v0.ovapi.nl]
 attributes: [cloud]
-privacy: https://github.com/MaxGramser/tessera-plugins/tree/main/plugins/ov_departures#privacy
+privacy: https://github.com/Eugen417/tessera-plugins/tree/main/plugins/ov_departures#privacy
 
 tiles:
   - id: next

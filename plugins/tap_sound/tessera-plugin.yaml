@@ -4,7 +4,7 @@ id: tap_sound
 version: 0.1.0
 api: "0.8"
 icon: gesture-tap-button
-maintainer: MaxGramser
+maintainer: Eugen417
 license: MIT
 stage: beta
 topics: [fun]

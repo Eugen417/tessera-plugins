@@ -7,7 +7,7 @@ id: bt_proxy
 version: 0.2.0
 api: "0.8"
 icon: bluetooth
-maintainer: MaxGramser
+maintainer: Eugen417
 license: MIT
 stage: beta
 topics: [home]

@@ -45,7 +45,7 @@ sys.path.insert(0, str(ROOT / 'tools'))
 from check import (check_entry, check_folder, check_needs, check_store_image, index_manifests, needs_cycle, needs_problem,  # noqa: E402
                    normal_path, normal_repo, own_manifests, plugin_api, pm, read_featured, read_transfers)
 
-REPO = normal_repo('https://github.com/MaxGramser/tessera-plugins')
+REPO = normal_repo(''https://github.com/Eugen417/tessera-plugins'')
 
 
 def git(*args):

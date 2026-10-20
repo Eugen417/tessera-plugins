@@ -1,20 +1,17 @@
 id: weather_informer
 version: 0.1.0
 api: "0.14"
-icon: mdi:weather-partly-cloudy
+icon: weather-partly-cloudy
 maintainer: ojgensapurin
-license: MIT 2026 ojgensapurin
+license: MIT
 stage: stable
 topics: [weather]
 boards: any
-memory: 4000
-permissions:
-  ha_commands: true
 
 tiles:
   - id: informer
     name: tile_name
-    icon: mdi:weather-partly-cloudy
+    icon: weather-partly-cloudy
     sizes: { min: 2x1, max: 4x2 }
     memory: 2000
     example: tile_example

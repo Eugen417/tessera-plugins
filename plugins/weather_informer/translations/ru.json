@@ -1,17 +1,15 @@
 {
   "app": {
     "name": "Погодный Информер",
-    "summary": "Объединяет показания Bluetooth и Zigbee датчиков для точной погоды.",
+    "summary": "Красивый полноэкранный дашборд погоды.",
     "tile_name": "Погода",
     "tile_example": "21.5 °C",
-    "bt_sensor": "ID Bluetooth датчика",
-    "bt_sensor_hint": "напр. sensor.bthome_sensor_9782_temperature",
-    "zigbee_sensor": "ID Zigbee датчика",
-    "zigbee_sensor_hint": "напр. sensor.shelly_ws90_temperature",
-    "mode": "Режим расчета",
-    "mode_average": "Среднее значение",
-    "mode_bt": "Только Bluetooth",
-    "mode_zigbee": "Только Zigbee"
+    "temp_sensor": "Датчик температуры (Главный)",
+    "temp_sensor_hint": "например, sensor.bthome_sensor_..._temperature",
+    "wind_sensor": "Датчик скорости ветра",
+    "wind_sensor_hint": "например, sensor.shelly_ws90_..._gust_speed",
+    "pressure_sensor": "Датчик давления",
+    "pressure_sensor_hint": "например, sensor.bthome_sensor_..._pressure"
   },
   "screen": {
     "tile_name": "Погода"

@@ -1,5 +1,5 @@
 id: weather_informer
-version: 0.2.2
+version: 0.2.3
 api: "0.10"
 icon: weather-partly-cloudy
 maintainer: ojgensapurin
@@ -16,6 +16,26 @@ tiles:
     memory: 4000
     example: tile_example
     domains: [sensor, weather]
-    has_attributes: [wind_speed, pressure]
+    # Убираем жесткое требование наличия всех атрибутов
+    # has_attributes: [wind_speed, pressure]
     attributes: [humidity, wind_speed, wind_bearing, pressure, gust]
+    
+    # Возвращаем ручной выбор датчиков для гибкости
+    options:
+      - id: temp_sensor
+        kind: entity
+        label: temp_sensor
+        hint: temp_sensor_hint
+        domains: [sensor]
+      - id: wind_sensor
+        kind: entity
+        label: wind_sensor
+        hint: wind_sensor_hint
+        domains: [sensor]
+      - id: pressure_sensor
+        kind: entity
+        label: pressure_sensor
+        hint: pressure_sensor_hint
+        domains: [sensor]
+
 

@@ -1,0 +1,19 @@
+{
+  "app": {
+    "name": "Weather Informer",
+    "summary": "Combines Bluetooth and Zigbee sensors for accurate weather display.",
+    "tile_name": "Weather",
+    "tile_example": "21.5 °C",
+    "bt_sensor": "Bluetooth Sensor ID",
+    "bt_sensor_hint": "e.g. sensor.bthome_sensor_9782_temperature",
+    "zigbee_sensor": "Zigbee Sensor ID",
+    "zigbee_sensor_hint": "e.g. sensor.shelly_ws90_temperature",
+    "mode": "Calculation Mode",
+    "mode_average": "Average Both",
+    "mode_bt": "Bluetooth Only",
+    "mode_zigbee": "Zigbee Only"
+  },
+  "screen": {
+    "tile_name": "Weather"
+  }
+}

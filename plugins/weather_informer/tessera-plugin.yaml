@@ -1,0 +1,37 @@
+id: weather_informer
+version: 0.1.0
+api: "0.14"
+icon: mdi:weather-partly-cloudy
+maintainer: ojgensapurin
+license: MIT 2026 ojgensapurin
+stage: stable
+topics: [weather]
+boards: any
+memory: 4000
+permissions:
+  ha_commands: true
+
+tiles:
+  - id: informer
+    name: tile_name
+    icon: mdi:weather-partly-cloudy
+    sizes: { min: 2x1, max: 4x2 }
+    memory: 2000
+    example: tile_example
+    options:
+      - id: bt_sensor
+        kind: text
+        label: bt_sensor
+        hint: bt_sensor_hint
+      - id: zigbee_sensor
+        kind: text
+        label: zigbee_sensor
+        hint: zigbee_sensor_hint
+      - id: mode
+        kind: choice
+        label: mode
+        default: average
+        choices:
+          - { value: average, label: mode_average }
+          - { value: bt_only, label: mode_bt }
+          - { value: zigbee_only, label: mode_zigbee }

@@ -1,6 +1,6 @@
 id: weather_informer
-version: 0.1.0
-api: "0.14"
+version: 0.1.1
+api: "0.10"
 icon: weather-partly-cloudy
 maintainer: ojgensapurin
 license: MIT
@@ -32,3 +32,4 @@ tiles:
           - { value: average, label: mode_average }
           - { value: bt_only, label: mode_bt }
           - { value: zigbee_only, label: mode_zigbee }
+

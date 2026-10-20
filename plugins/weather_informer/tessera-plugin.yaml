@@ -1,5 +1,5 @@
 id: weather_informer
-version: 0.1.1
+version: 0.1.2
 api: "0.10"
 icon: weather-partly-cloudy
 maintainer: ojgensapurin
@@ -12,18 +12,21 @@ tiles:
   - id: informer
     name: tile_name
     icon: weather-partly-cloudy
-    sizes: { min: 2x1, max: 4x2 }
+    sizes: { min: 2x1, max: 4x4 }
     memory: 2000
     example: tile_example
+    domains: [sensor]
     options:
       - id: bt_sensor
-        kind: text
+        kind: entity
         label: bt_sensor
         hint: bt_sensor_hint
+        domains: [sensor]
       - id: zigbee_sensor
-        kind: text
+        kind: entity
         label: zigbee_sensor
         hint: zigbee_sensor_hint
+        domains: [sensor]
       - id: mode
         kind: choice
         label: mode
@@ -32,4 +35,5 @@ tiles:
           - { value: average, label: mode_average }
           - { value: bt_only, label: mode_bt }
           - { value: zigbee_only, label: mode_zigbee }
+
 
